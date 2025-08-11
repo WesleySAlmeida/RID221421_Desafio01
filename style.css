@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+#menu-superior {
+    background-color: #303030;
+    color: white;
+    height: 200px;
+}
+#menu-tituloSuperior {
+   margin-left: 150px;
+   padding-top: 50px;
+}
+#menu-textoSuperior {
+    margin-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.estatisticas {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #f5f5f5;
+  padding: 60px 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-left: 90px;
+}
+
+.estatisticas .item {
+  flex: 1;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* <-- aqui faz o conteúdo ficar à esquerda */
+}
+
+.estatisticas h2 {
+  font-size: 2.8em;
+  font-weight: bold;
+  margin: 0;
+  color: #000;
+}
+
+.estatisticas p {
+  font-size: 1em;
+  color: #666;
+  margin-top: 8px;
+  line-height: 1.4;
+}
+.sobre {
+  padding: 60px 40px;
+}
+
+.sobre .conteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap; /* ajuda na responsividade */
+}
+
+.sobre .texto {
+  flex: 1;
+  min-width: 300px;
+}
+
+.sobre .texto h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.sobre .texto p {
+  font-size: 1em;
+  color: #444;
+  line-height: 1.6;
+}
+
+.sobre .imagem {
+  flex: 1;
+  min-width: 300px;
+  min-height: 300px;
+  text-align: right;
+}
+
+.sobre .imagem img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+#formulario {
+    background-color: #303030;
+    padding: 60px 40px;
+    text-align: center;
+}
+#formulario-titulo {
+    color: white;
+    margin-bottom: 20px;
+}
+input{
+  width: 286px;
+  height: 60px;
+  margin: 15px;
+  border: 0px;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+button{
+  background-color: #C07212;
+  width: 200px;
+  height: 50px;
+  left: 500px;
+  border: 0px;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #A06010;
+  color: white;
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px  #3b2305;
+  transition-duration: 0.5s;
+}
